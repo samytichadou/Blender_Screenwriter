@@ -4,9 +4,9 @@ from .. import fountain
 from pathlib import Path
 
 
-class TEXT_OT_scenes_to_strips(bpy.types.Operator):
+class SCREENWRITER_OT_scenes_to_strips(bpy.types.Operator):
     """Convert screenplay data to scene and text strips"""
-    bl_idname = "text.scenes_to_strips"
+    bl_idname = "screenwriter.scenes_to_strips"
     bl_label = "Create Sequence"
     bl_options = {'REGISTER', 'UNDO'}
 

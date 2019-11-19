@@ -15,7 +15,7 @@ class SCREENWRITER_PT_panel(bpy.types.Panel):
         layout.operator("scene.preview_fountain")
         repl = context.scene.text_replace
         layout.prop(repl, "enabled")
-        layout.operator("text.scenes_to_strips")
+        layout.operator("screenwriter.scenes_to_strips")
 
 def screenwriter_menu_export(self, context):
     self.layout.separator()

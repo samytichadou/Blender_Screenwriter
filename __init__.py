@@ -39,7 +39,7 @@ classes = (SCREENWRITER_PT_panel,
             SCREENWRITER_OT_preview_fountain,
             SCREENWRITER_OT_dual_view,
             SCREENWRITER_OT_export,
-            TEXT_OT_scenes_to_strips,
+            SCREENWRITER_OT_scenes_to_strips,
             TextReplaceProperties            
             )
 
